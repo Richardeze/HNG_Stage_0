@@ -15,7 +15,7 @@ Project goals
 - Returning dynamic JSON data
 
 ## API ENDPOINT
-**GET** "/me"
+**GET** "/me"  
 **Response Example:**
 {
   "fact": "Many cats love having their forehead gently stroked.",
