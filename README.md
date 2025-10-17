@@ -1,14 +1,18 @@
-# HNG 13 Backend Wizards - Stage ) Task
+# HNG 13 Backend Wizards - Stage 0 Task
 
 ## Description
 This project is a simple Flask RESTful API that returns my profile information along with a dynamic cat fact fetched 
-from an external API.
+from an external API.                                                                                                                                                
+It has two endpoints:
+- `/` → Redirects users automatically to `/me`
+- `/me` → Displays the profile data, a random cat fact, and the current timestamp.
+
 
 Project goals
 - Building a simple REST API
-- Consuming third party APIs with the current timestamp in ISO 8601 format
+- Consuming third party APIs with the current timestamp in UTC ISO 8601 format
 - Fetching random cat fact from the Cat Facts API
-- Returning dynamic json data
+- Returning dynamic JSON data
 
 ## API ENDPOINT
 **GET** "/me"
@@ -23,7 +27,7 @@ Project goals
     "stack": "Python, Flask"
   }
 }
-## Setup Instructions
+## Local Setup Instructions
 1. Clone the Repository:
 git clone https://github.com/Richardeze/HNG_Stage_0.git
 cd HNG_Stage_0
@@ -33,3 +37,4 @@ source .venv/bin/activate
 3. Install Dependencies:
 pip install -r requirements.txt
 4. Run the Application: python main.py
+5. Access the application: Visit http://127.0.0.1:5000/me
