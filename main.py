@@ -40,7 +40,8 @@ def get_my_profile():
     }
 
     return  jsonify(my_data), 200
+print("✅ Flask app loaded successfully")
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
 
