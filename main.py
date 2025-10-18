@@ -43,5 +43,6 @@ def get_my_profile():
 print("✅ Flask app loaded successfully")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.getenv('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)
 
