@@ -50,3 +50,7 @@ A sample response from the /me endpoint:
   "timestamp": "2025-10-17T18:05:41.213186+00:00",
   "fact": "Cheetahs do not roar, as the other big cats do. Instead, they purr."
 }
+
+## Live API URL
+You can access the deployed API here: 
+https://web-production-b687a.up.railway.app/me
